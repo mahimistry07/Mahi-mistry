@@ -1,0 +1,50 @@
+/* Realistic Walnut & Teak Wood Texture Background */
+body.wood-bg {
+    background-color: #3b2314;
+    background-image: 
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(0deg, rgba(0,0,0,0.18) 0px, rgba(0,0,0,0.18) 2px, transparent 2px, transparent 8px),
+        radial-gradient(circle at center, #5c3a21 0%, #2a170c 100%);
+    color: #FFF8E7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* Teak Wood Panel */
+.teak-panel {
+    background: linear-gradient(145deg, #6e472b, #4a2e1b);
+    border: 3px solid #d4a373;
+    border-radius: 18px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.6), 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Golden Carving Hover Effect on Buttons & Cards */
+.carve-btn {
+    background: linear-gradient(to bottom, #8c5832, #59351c);
+    color: #FFD54F !important;
+    border: 2px solid #d4a373;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px #1a0f08;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,0.2), 0 4px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+.carve-btn:hover {
+    background: linear-gradient(to bottom, #a3683c, #6e4223);
+    color: #ffffff !important;
+    border-color: #FFD54F;
+    box-shadow: 0 0 18px rgba(255, 213, 79, 0.75), inset 0 0 8px rgba(255, 213, 79, 0.5);
+    transform: translateY(-2px);
+}
+
+.carve-card {
+    transition: all 0.35s ease;
+    border: 2px solid #d4a373;
+}
+
+.carve-card:hover {
+    transform: translateY(-7px);
+    border-color: #FFD54F;
+    box-shadow: 0 0 25px rgba(255, 213, 79, 0.65), inset 0 0 12px rgba(255, 213, 79, 0.3);
+}
